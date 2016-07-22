@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_bg">#3770a9</color>
+    <color name="menu_textcolor">#910c0c</color>
+
+    <style name="menu_style" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+    </style>
+
+    <style name="menu_style.dim">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="menu_style.color">
+
+
+
+        <item name="android:background">@color/menu_bg</item>
+        <item name="android:textColor">@color/menu_textcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+</resources>

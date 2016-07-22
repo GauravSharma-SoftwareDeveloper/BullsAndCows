@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.itachi.bullsandcows.GameActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/topWelcomeView"
+                    android:layout_width="204dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:height="40dp"
+                    android:gravity="center|center_horizontal"
+                    android:text="Welcome Guest!"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log out"
+                    android:id="@+id/button5"
+                    android:onClick="onLogoutButtonClicked" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20px" />
+
+            <fragment
+                android:id="@+id/fragment3"
+                android:name="com.example.itachi.bullsandcows.GameMainFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_game_main" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20px" />
+
+            <fragment
+                android:id="@+id/fragment4"
+                android:name="com.example.itachi.bullsandcows.GameTableTempFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_game_table_temp" />
+
+        </LinearLayout>
+
+</RelativeLayout>

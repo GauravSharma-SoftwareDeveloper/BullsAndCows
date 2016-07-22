@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.itachi.bullsandcows.GameOverActivity"
+    android:padding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/space" />
+
+        <fragment
+            tools:layout="@layout/fragment_game_over_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.itachi.bullsandcows.GameOverTopFragment"
+            android:id="@+id/fragment5"
+            android:layout_below="@+id/space"
+            android:layout_centerHorizontal="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:layout_below="@+id/fragment5"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space2" />
+
+        <fragment
+            tools:layout="@layout/fragment_game_table_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.itachi.bullsandcows.GameTableTempFragment"
+            android:id="@+id/fragment6"
+            android:layout_below="@+id/space2"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/space4" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space3" />
+
+        <fragment
+            tools:layout="@layout/fragment_game_over_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.itachi.bullsandcows.GameOverBottomFragment"
+            android:id="@+id/fragment7"
+            android:layout_above="@+id/space3"
+            android:layout_centerHorizontal="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:layout_above="@+id/fragment7"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space4" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

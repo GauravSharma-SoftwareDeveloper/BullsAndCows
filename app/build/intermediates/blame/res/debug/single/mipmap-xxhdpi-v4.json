@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/itachi/AndroidStudioProjects/BullsAndCows/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/h_launcher.png",
+        "source": "/home/itachi/AndroidStudioProjects/BullsAndCows/app/src/main/res/mipmap-xxhdpi/h_launcher.png"
+    }
+]

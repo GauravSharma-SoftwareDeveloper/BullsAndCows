@@ -1,0 +1,5 @@
+CHANGED,/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/itachi/bullsandcows/GameMainFragment$override.class
+CHANGED,/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/itachi/bullsandcows/GameActivity$override.class
+CHANGED,/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/itachi/bullsandcows/MainActivity$override.class
+CHANGED,/home/itachi/AndroidStudioProjects/BullsAndCows/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/itachi/bullsandcows/DisplayHighScoreActivity$override.class
